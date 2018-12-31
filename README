@@ -1,0 +1,11 @@
+Module
+clear project: $make clean
+build project: $make
+insert module: $sudo insmod bc.ko (this will isert module with caesar=0)
+insert module with caesar: $sudo insmod bc.ko caesar=5
+display mulde message: $dmesg
+create kernel file: $sudo mknod /dev/DinhAnhDung c 238 0
+User
+Go to user program: $cd user_app
+build user program: $gcc -o main user.c
+run user program: ./main
