@@ -1,1 +1,0 @@
-cmd_/home/dungdinh/SDev/SysPro/block_char/bc.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/dungdinh/SDev/SysPro/block_char/bc.ko /home/dungdinh/SDev/SysPro/block_char/bc.o /home/dungdinh/SDev/SysPro/block_char/bc.mod.o ;  true
